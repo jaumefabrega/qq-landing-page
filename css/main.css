@@ -27,6 +27,20 @@ Support:        https://finestdevs.com/product-support/
 
 
 ******************************************************/
+
+
+/* Styles added by me before css refactoring */
+ .compatibility-logo {
+   height: 32px;
+ }
+
+ .compatibility-logo.wix {
+  height: 28px;
+}
+
+.compatibility-logo.elementor {
+ height: 30px;
+}
 /*=== Media Query ===*/
 body[data-theme='dark'], .dark-bg, .dark-mode-texts {
   --bg:                 #19191b;
@@ -1958,7 +1972,7 @@ li.sub-menu--item.nav-item-has-children i {
   margin-bottom: 0;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
    Hero Area-L-17
 
         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -2159,7 +2173,7 @@ li.sub-menu--item.nav-item-has-children i {
   margin-left: 15px;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
              Feature Area-L-17
           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .feature-area-l-17 {
@@ -2275,7 +2289,7 @@ li.sub-menu--item.nav-item-has-children i {
   }
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             Content Area 1-L-17
           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .content-area-l-17-1 {
@@ -2360,7 +2374,7 @@ li.sub-menu--item.nav-item-has-children i {
   color: #0F3D33 !important;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             Content Area 2-L-17
           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .content-area-l-17-2 {
@@ -2439,7 +2453,7 @@ li.sub-menu--item.nav-item-has-children i {
   color: #0F3D33 !important;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             Video Area-L-17
           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .video-area-l-17 {
@@ -2519,7 +2533,7 @@ li.sub-menu--item.nav-item-has-children i {
   color: #FFFFFF;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             Pricing Area-L-17
           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .pricing-area-l-17 {
@@ -2888,7 +2902,7 @@ li.sub-menu--item.nav-item-has-children i {
   background: #50E3C2;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             Brand Area-L-17
           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .brand-area-l-17 {
@@ -2917,6 +2931,11 @@ li.sub-menu--item.nav-item-has-children i {
   margin-bottom: 45px;
 }
 
+.brand-area-l-17 .content.closing p {
+  margin-bottom: 0;
+  margin-top: 45px;
+}
+
 .brand-area-l-17-items {
   margin: 0px -20px -45px -20px;
 }
@@ -2925,7 +2944,7 @@ li.sub-menu--item.nav-item-has-children i {
   margin: 0px 20px 45px 20px;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             Testimonial Area-L-17
           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .testimonial-area-l-17 {
@@ -3003,7 +3022,7 @@ li.sub-menu--item.nav-item-has-children i {
   margin-left: 0;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             CTA Area-L-17
           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .cta-area-l-17 {
@@ -3047,7 +3066,7 @@ li.sub-menu--item.nav-item-has-children i {
   color: #0F3D33;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
             Footer Area-L-17
           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .footer-area-l-17 {
@@ -3201,7 +3220,7 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 /* ---------------------------------
--------> THEME CUSTOM STYLES 
+-------> THEME CUSTOM STYLES
 ---------------------------------
 */
 .background-property {
