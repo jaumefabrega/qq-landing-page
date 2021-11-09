@@ -40,6 +40,11 @@ Support:        https://finestdevs.com/product-support/
 .compatibility-logo.elementor {
   height: 30px;
 }
+
+.underline {
+  text-decoration: underline;
+}
+
 /*=== Media Query ===*/
 body[data-theme="dark"],
 .dark-bg,
@@ -2134,7 +2139,8 @@ li.sub-menu--item.nav-item-has-children i {
   }
 }
 
-.hero-area-l-17 .content p {
+.hero-area-l-17 .content p,
+.hero-area-l-17 .content p span {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
